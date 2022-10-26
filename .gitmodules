@@ -7,12 +7,6 @@
 [submodule "lib/reality-eth-monorepo"]
 	path = lib/reality-eth-monorepo
 	url = https://github.com/RealityETH/reality-eth-monorepo
-[submodule "lib/safe-contracts"]
-	path = lib/safe-contracts
-	url = https://github.com/safe-global/safe-contracts
 [submodule "lib/zodiac-module-reality"]
 	path = lib/zodiac-module-reality
 	url = https://github.com/gnosis/zodiac-module-reality
-[submodule "lib/zodiac"]
-	path = lib/zodiac
-	url = https://github.com/gnosis/zodiac

@@ -89,8 +89,6 @@ contract StateUpdates is Test {
         // now update the cooldown and reduce it to half of the original value
         module.setQuestionCooldown(COOLDOWN / 2);
 
-        uint256 _finalizeTs = REALITY_V3.getFinalizeTS(_questionId);
-
         // the attached proposal is now executable
         module.executeProposal(
             _proposalId,

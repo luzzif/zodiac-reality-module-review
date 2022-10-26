@@ -1,0 +1,13 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+remappings = [
+    'ds-test/=lib/ds-test/src/',
+    'forge-std/=lib/forge-std/src/',
+    'zmr/=lib/zodiac-module-reality/contracts',
+    'zodiac/=lib/zodiac/contracts',
+    'reality/=lib/reality-eth-monorepo/packages/contracts/development/contracts',
+    'safe/=lib/safe-contracts/contracts',
+    'src/=src/',
+]
